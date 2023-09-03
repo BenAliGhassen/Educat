@@ -1,0 +1,318 @@
+body{
+    overflow-x: hidden;
+}
+#navimg{
+    height: 95vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+}
+#logo{
+   position: absolute;
+}
+h1{
+    text-align: center;
+}
+#navigation{
+    margin-bottom: 120px;
+}
+#titre{
+    position: absolute;
+    margin-left: 35px;
+    font-size: xx-large;
+    color: white;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+}
+#menu{
+    position: absolute;
+    list-style: none;
+    right: 71px;
+    top: 34px;
+}
+
+#menu li{
+    display: inline;
+    margin-left: 20px;
+    font-size: larger;
+}
+.navbar{
+    justify-content: space-between;
+    position: relative;
+    height: 95vh;
+}
+.waves{
+        height: 100px;
+        width: 98.4vw;
+    position: absolute;
+    bottom: 9vh;
+}
+.LM{
+    position: absolute;
+    left: 22.7%;
+    top: 38%;
+    width: 250px;
+    height: 50px;
+    background: none;
+    border: 0px;
+    font-size: xx-large;
+    color: #fff;
+    text-decoration: none;
+}
+#Lm1{
+    height: 400px;
+}
+.L1{
+    text-align: center;
+    margin: 20px 0px 280px 0px;
+}
+.L2{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.LE{
+    display: inline-block;
+}
+#pic3{
+    height: 400px;
+}
+#pic31{
+    height: 300px;
+    border-radius: 10px;
+}
+#pic33{
+    height: 400px;
+    margin: 20px 0px 0px 10px;
+}
+#c1{
+    height: 400px;
+    margin: 20px 0px 0px 10px;  
+}
+p{
+    font-weight: 540;
+}
+.im{
+    display: inline-block;
+    height: 485px;
+    margin: 20px 0px 0px 10px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    color: black;
+}
+.coursp{
+    width: 50px;
+}
+.coursj{
+    width: 28px;
+}
+.courshc{
+    width: 80px;
+}
+.L3{
+    background-color: rgba(162, 156, 156, 0.825);
+    text-align: center;
+    margin-bottom: 120px;
+}
+.pn{
+    width: 400px;
+    display: inline-block;
+    transform: translateY(-150px);
+}
+
+#footer{
+    background-color: rgb(3, 164, 113);
+    opacity: 0.63;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    border-radius: 10px;
+    height: 120px;
+    text-align: center;
+}
+#ab{
+    
+    position: fixed;
+    background-color: black;
+    width: 40px;
+    text-align: center;
+    border-radius: 100%;
+    bottom: 15px;
+    right: 10px;
+    margin: 10px 5px 5px 10px;
+}
+
+#part1{
+    width: 100px;
+    margin-right: 35px;
+}
+#part2{
+    width: 150px;
+    margin-right: 35px;
+    bottom: 0px;
+}
+#part3{
+    width: 120px;
+    margin-right: 35px;
+}
+#bmenu{
+    visibility: hidden;
+    position: absolute;
+    right: 10px;
+    margin: 10px 5px 0px 0px;
+    background :none;
+    border: none;
+    width: 25px;
+}
+.hamburger{
+    background-color: white;
+    height: 5px;
+    margin-top: 5px;
+    width: 25px;
+}
+#fm{
+    display: inline-block;
+}
+#cu{
+    right: 20vw;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+#sgi{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 25px;
+    display: inline-block;
+    margin-left: 25px;
+}
+#copyr{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+#menu a:hover{
+    border-bottom: #fff 1px solid;
+}
+
+
+
+.LM:hover{
+    text-decoration: underline;
+}
+
+
+.im:hover{
+    transform: scale(1.03);
+}
+
+a #cu:hover,#sgi:hover{
+text-decoration: underline;
+}
+
+@media(max-width :1120px){
+    #navigation{
+        grid-area: nav;
+    }
+    #navimg{
+     width: 100vw;
+     height: 55vh;
+    }
+    .navbar{
+        height: 55vh;
+    }
+    #main{
+        grid-area: main;
+    }
+    #footer{
+        grid-area: footer;
+    }
+    #container{
+        width: 100vw;
+        display: grid;
+        grid-template: 
+        "nav nav nav"
+        "main main main"
+        "footer footer footer";
+    }
+.LM{
+    font-size: large;
+    top: 12vh;
+    left: 20vw;
+    width: fit-content;
+}
+#logo{
+    width: 35vw;
+}
+.waves{
+position: absolute;
+top: 40vh;
+width: 100vw;
+}
+    #pic3{
+        height: 200px; 
+    }
+    #pic31{
+        height: 150px;
+        border-radius: 10px;
+    }
+    #pic33{
+        height: 200px;
+        margin: 20px 0px 0px 10px;
+    }
+    #c1{
+        height: 200px;
+        margin: 20px 0px 0px 10px;  
+    }
+    #Lm1{
+        height: 200px;
+    }
+    .im{
+        height: 350px;
+    }
+    #menu{
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        right: 10px;
+        top: 10px;
+    }
+    #bmenu{
+        visibility: visible;
+        z-index: 12;
+    }
+    @media(max-width :920px){
+        #navimg{
+            width: 100vw;
+            height: 45vh;
+           }
+           .navbar{
+               height: 45vh;
+           }
+           .waves{
+            position: absolute;
+            top: 37vh;
+            width: 100vw;
+            }
+            @media(max-width :473px){
+                #navimg{
+                    width: 100vw;
+                    height: 25vh;
+                   }
+                   .navbar{
+                       height: 25vh;
+                   }
+                   .waves{
+                    position: absolute;
+                    top: 19vh;
+                    width: 100vw;
+                    }
+            }
+    }
+
+}

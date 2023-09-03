@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0, 
+maximum-scale=1.0, user-scalable=no" /> 
+    <meta name="description" content="Education plate-forme">
+    <meta name="author" content="Ghassen BenAli">
+    <link rel="stylesheet" href="style.css">
+    <title>Educat</title>
+</head>
+<body>
+    <script>
+        function cmenu(){
+            const men = document.getElementById("menu");
+            men.style.visibility="visible";
+        }
+        function hmenu(){
+            if (screen.width<= 906){
+            const men = document.getElementById("menu");
+            men.style.visibility="hidden";
+            }
+        }
+        
+    </script>
+    <div id="container" >
+        <div id="bmenu" onclick="cmenu()">
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+            <div class="hamburger"></div>
+        </div>
+           
+        <nav id="navigation" onclick="hmenu()">
+            <div class="navbar">
+                <div class="waves">
+                    <svg id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 200" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(255, 255, 255)" offset="0%"></stop><stop stop-color="rgba(254.075, 253.075, 250.075,1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,140L17.1,130C34.3,120,69,100,103,83.3C137.1,67,171,53,206,50C240,47,274,53,309,63.3C342.9,73,377,87,411,93.3C445.7,100,480,100,514,113.3C548.6,127,583,153,617,146.7C651.4,140,686,100,720,76.7C754.3,53,789,47,823,63.3C857.1,80,891,120,926,140C960,160,994,160,1029,143.3C1062.9,127,1097,93,1131,93.3C1165.7,93,1200,127,1234,143.3C1268.6,160,1303,160,1337,143.3C1371.4,127,1406,93,1440,70C1474.3,47,1509,33,1543,26.7C1577.1,20,1611,20,1646,33.3C1680,47,1714,73,1749,83.3C1782.9,93,1817,87,1851,100C1885.7,113,1920,147,1954,153.3C1988.6,160,2023,140,2057,110C2091.4,80,2126,40,2160,36.7C2194.3,33,2229,67,2263,90C2297.1,113,2331,127,2366,140C2400,153,2434,167,2451,173.3L2468.6,180L2468.6,200L2451.4,200C2434.3,200,2400,200,2366,200C2331.4,200,2297,200,2263,200C2228.6,200,2194,200,2160,200C2125.7,200,2091,200,2057,200C2022.9,200,1989,200,1954,200C1920,200,1886,200,1851,200C1817.1,200,1783,200,1749,200C1714.3,200,1680,200,1646,200C1611.4,200,1577,200,1543,200C1508.6,200,1474,200,1440,200C1405.7,200,1371,200,1337,200C1302.9,200,1269,200,1234,200C1200,200,1166,200,1131,200C1097.1,200,1063,200,1029,200C994.3,200,960,200,926,200C891.4,200,857,200,823,200C788.6,200,754,200,720,200C685.7,200,651,200,617,200C582.9,200,549,200,514,200C480,200,446,200,411,200C377.1,200,343,200,309,200C274.3,200,240,200,206,200C171.4,200,137,200,103,200C68.6,200,34,200,17,200L0,200Z"></path></svg></html>   
+                </div>
+            <img src="assets/logo1.png" id="logo">
+            <ul id="menu">
+                <li><a href="#L2">Our Staff</a></li>
+                <li><a href="#L3">Certification</a></li>
+                <li><a href="contact us.html">Contact Us</a></li>
+                <li><a href="Sign.html">Sign In/Sing Up</a></li>
+            </ul>
+            <img src="assets/pic2.jpg" id="navimg"> 
+            <a class="LM" href="#L1">Learn More</a>
+        </div>
+            
+        </nav>
+
+        <main id="main" onclick="hmenu()">
+            <div id="L1" class="L1">
+            <h1>Learning Experience</h1>
+            <div class="LE">
+            <img src="assets/t2.jpg" id="pic3">
+            <p>we believe that learning is a transformative and empowering experience that knows no bounds.</p>
+            </div>
+            <div class="LE">
+            <img src="assets/Lm1.jpg" id="Lm1">
+            <p>Our Learning Experience is designed to ignite curiosity, foster creativity, and cultivate a deep passion for knowledge.</p>
+            </div>
+        </div>
+
+        <div id="L2" class="L2">
+            <h1>Meet Our Dedicated Team</h1>
+            <p>Our team is comprised of passionate individuals who are dedicated to shaping a transformative learning experience for our students.<br> With a shared commitment to excellence, innovation, and student success, our staff brings a wealth of expertise and enthusiasm to the table.</p>
+              <div class="im">
+                    <img src="assets/t1.jpg" id="pic31">
+                    <h3>Name</h3>
+                    <p> Proffeseur Java</p>
+                    <img src="assets/java.png" class="coursj">
+                    
+                </div>
+
+                    <div class="im">
+                    <img src="assets/t3.jpg" id="pic31">
+                    <h3>Name</h3>
+                    <p> Proffeseur Html&css</p>
+                    <img src="assets/htmlcss.png" class="courshc">
+                
+                </div>
+
+                <div class="im"> 
+                    <img src="assets/t4.jpg" id="pic31">
+                    <h3>Name</h3>
+                    <p> Proffeseur Python</p>
+                    <img src="assets/python.png" class="coursp">
+                
+                </div>
+                    </div>
+        </div>
+        <h1>Formation Certifié</h1>
+        <div class="L3" id="L3">
+           <img src="assets/google.png" id="part1">
+           <img src="assets/meta.png" id="part2">
+           <img src="assets/ibm.png" id="part3">
+                       
+                    
+        </div>
+        </main>
+
+        <footer id="footer">
+            <div id="fm">
+            <p id="copyr">©copyright</p>
+            <a href="contact us.html"><p id="cu">Contact us</p></a>
+            <a href="Sign.html"><p id="sgi">Sign in</p></a>
+        </div>
+            <a href="#navigation"><div id="ab">
+                <img src="assets/arrow.png" id="arrow">
+            </div></a>
+        </footer>
+    </div>
+</body>
+</html>
